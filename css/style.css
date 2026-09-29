@@ -167,3 +167,31 @@ footer strong { color: white; }
     .schedule-row { grid-template-columns: 1fr; }
     .footer-content { flex-direction: column; }
 }
+
+.eoi-button {
+  display: inline-block;
+  margin: 18px 0 24px;
+  padding: 16px 28px;
+  background: linear-gradient(135deg, #1760b5, #7356d8);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(23, 96, 181, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.eoi-button:hover {
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 9px 24px rgba(23, 96, 181, 0.32);
+}
+
+.eoi-button:focus-visible {
+  outline: 3px solid #1760b5;
+  outline-offset: 4px;
+}
