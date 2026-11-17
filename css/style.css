@@ -220,3 +220,5 @@ footer strong { color: white; }
 .paper-card .paper-award { margin: 18px 0 0; color: var(--blue); }
 
 .paper-details .paper-presenter { color: #b42318; font-weight: 700; }
+
+.eoi-button:disabled { background: #e0e7f0; color: #536175; border: 0; font-family: inherit; cursor: not-allowed; box-shadow: none; transform: none; }
